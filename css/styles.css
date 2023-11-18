@@ -65,6 +65,11 @@ img {
         padding-right: 15px;
 }
 
+.section {
+        padding-top: 60px;
+        padding-bottom: 60px;
+}
+
 /* Header */
 
 .container-header {
@@ -165,6 +170,8 @@ img {
         width: 496px;
         margin-right: auto;
         margin-left: auto;
+        padding-top: 188px;
+        padding-bottom: 292px;
         color: #FFF;
 }
 
@@ -178,6 +185,16 @@ img {
 }
 
 /*Values*/
+.values {
+        padding-top: 91px;
+        padding-bottom: 60px;
+}
+
+.list-values {
+        display: flex;
+        column-gap: 24px;
+}
+
 .title-values-item {
         font-size: 20px;
         font-weight: 500;
@@ -201,8 +218,19 @@ img {
         background: #F4F4FD;
 }
 
+.list-team {
+        display: flex;
+        column-gap: 24px;
+}
+
 .list-team-item {
         background-color: #FFFFFF;
+        border-radius: 0px 0px 4px 4px;
+        width: calc((100%-72)/4);
+}
+
+.list-team-img {
+        margin-bottom: 32px;
 }
 
 .title-team{
@@ -214,6 +242,7 @@ img {
         /* 111.111% */
         letter-spacing: 0.02em;
         text-transform: capitalize;
+        margin-bottom: 72px;
         color: #2E2F42;
 }
 
@@ -242,6 +271,18 @@ img {
     background-color: #FFFFFF;
 }
 
+.list-portfolio {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 48px;
+}
+
+.list-porfolio-item {
+        width: calc((100%-112)/6);
+        border: 1px solid var(--CORNFLOWER, #E7E9FC);
+}
+
 .title-portfolio{
         text-align: center;
         font-size: 36px;
@@ -250,6 +291,7 @@ img {
         /* 111.111% */
         letter-spacing: 0.02em;
         text-transform: capitalize;
+        margin-bottom: 72px;
         color: #2E2F42;
 }
 
@@ -260,6 +302,10 @@ img {
         /* 120% */
         letter-spacing: 0.02em;
         color: #2E2F42;
+}
+
+.list-portfolio-img {
+        margin-bottom: 32px;
 }
 
 .about-portfolio-item {
@@ -277,6 +323,7 @@ img {
 }
 
 .footer-link {
+        display: block;
         font-family: 'Raleway', sans-serif;
         font-size: 18px;
         font-weight: 700;
@@ -284,6 +331,9 @@ img {
         /* 116.667% */
         letter-spacing: 0.03em;
         text-transform: uppercase;
+        padding-top: 100px;
+        padding-bottom: 18px;
+        padding-left:156px;
         color: #4d5ae5;
 }
 
@@ -299,10 +349,13 @@ img {
 }
 
 .about-footer {
+        width:420px;
         font-size: 16px;
         font-weight: 400;
         line-height: 1.5;
         /* 150% */
         letter-spacing: 0.02em;
+        padding-bottom: 100px;
+        padding-left:156px;
         color: #F4F4FD;
 }
