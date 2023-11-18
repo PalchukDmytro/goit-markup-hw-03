@@ -164,6 +164,7 @@ img {
 .page-main-title{
     background: #2E2F42;
     margin-top: 29px;
+    padding: 188px 0;
 }
 
 .main-title{
@@ -174,15 +175,21 @@ img {
         line-height: 1.07;
         /* 107.143% */
         letter-spacing: 0.02em;
-        width: 496px;
+        max-width: 496px;
         margin-right: auto;
         margin-left: auto;
-        padding-top: 188px;
-        padding-bottom: 292px;
         color: #FFF;
 }
 
 .button-text {
+        display: block;
+        min-width: 169px;
+        height: 56px;
+        border: none;
+        border-radius: 4px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 48px;
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
@@ -193,13 +200,16 @@ img {
 
 /*Values*/
 .values {
-        padding-top: 91px;
-        padding-bottom: 60px;
+        padding: 120px 0;
 }
 
 .list-values {
         display: flex;
-        column-gap: 24px;
+        gap: 24px;
+}
+
+.list-values-items {
+        width: calc((100%-72)/4);
 }
 
 .title-values-item {
@@ -208,6 +218,7 @@ img {
         line-height: 1.2;
         /* 120% */
         letter-spacing: 0.02em;
+        margin-bottom: 8px;
         color: #2E2F42;
 }
 
@@ -227,7 +238,7 @@ img {
 
 .list-team {
         display: flex;
-        column-gap: 24px;
+        gap: 24px;
 }
 
 .list-team-item {
